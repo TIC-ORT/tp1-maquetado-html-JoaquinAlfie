@@ -21,4 +21,29 @@ body {
   nav input {
     width: 50%;
     padding: 5px;
+  } .hero 
+  {
+    display: flex;
+    background: #ffd578;
+    padding: 20px;
   }
+  
+  .hero .imagen {
+    background: #ffc04c;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .hero .texto h1 {
+    background: #ffc04c;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .hero .texto p {
+    background: white;
+    margin: 5px 0;
+    height: 10px;
+  }
+  
