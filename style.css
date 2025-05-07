@@ -2,3 +2,23 @@ body {
     margin: 0;
     font-family: sans-serif;
   }
+  header {
+    background: #e0e0e0;
+    padding: 10px;
+  }
+  
+  .barra-superior {
+    background: #87cecf;
+    height: 30px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav input {
+    width: 50%;
+    padding: 5px;
+  }
