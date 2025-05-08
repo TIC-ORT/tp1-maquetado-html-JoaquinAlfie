@@ -32,7 +32,7 @@ body {
     background: #ffc04c;
     width: 150px;
     height: 150px;
-    margin-right: 20px;
+    margin-right: 200px;
   }
   
   .hero .texto h1 {
@@ -55,5 +55,51 @@ body {
   
   .caja {
     height: 150px;
+    width: 150px;
     position: relative;
+  }
+  
+  .caja::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 80px;
+    height:80px;
+    opacity: 0.6;
+  }
+  .azul {
+    background: #b6ebf2;
+  }
+  
+  .azul::before {
+    background: #9ee0e6;
+  }
+  
+  .rojo {
+    background: #ffa589;
+  }
+  
+  .rojo::before {
+    background: #ff8a65;
+  }
+  
+  .amarillo {
+    background: #ffd578;
+  }
+  
+  .amarillo::before {
+    background: #ffc04c;
+  }
+  footer {
+    background: #ececec;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  footer .columna {
+    width: 30%;
+    height: 60px;
+    background: #d3d3d3;
   }
